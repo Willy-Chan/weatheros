@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Westeros Weather Comparison</title>
+    <style>
+        body {
+            background-image: url({{ url_for('static', filename='images/' + image_filename) }});
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            color: white;
+            text-shadow: 2px 2px 8px #000000;
+            margin-top: 40vh;
+            font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+        }
+        h2 {
+            text-align: center;
+            font-size: `em;
+            color: white;
+            text-shadow: 2px 2px 8px #000000;
+            margin-top: 10vh;
+            font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+        }
+    </style>
+</head>
+<body>
+  <h1>Your current weather is most similar to {{ westeros_location }} in Westeros.</h1>
+  <h2>It is {{ temp_c }} degrees Celsius, or {{ temp_f }} degrees Fahrenheit.<br> The current weather condition is as follows: <br>{{ weather_conditions }}<br>thus making it the most like {{ westeros_location }}.</h2>
+
+  <h2>{{ westeros_location }}: {{ description }}</h2>
+</body>
+</html>

@@ -1,2 +1,2 @@
-# weatheros
-Tells you the current weather based on a place in Westeros.
+# westeros-weather
+Tells you the current temperature by comparing it to a location in Westeros.

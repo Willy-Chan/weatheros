@@ -1,0 +1,11 @@
+Winterfell|Cold and snowy, with long winters and occasional heavy snowstorms.
+King's Landing|Warm and temperate, with hot summers and mild winters. Occasional rain and thunderstorms.
+The Wall|Extremely cold and snowy, with harsh winds and blizzards.
+Braavos|Temperate with moderate rainfall, but can also be quite humid during the summer months.
+Meereen|Hot and dry, with little rainfall and plenty of sun. Temperatures can be scorching during the day.
+Dorne|Hot and arid, with little rainfall and plenty of sun. Can be quite hot during the day but cooler at night.
+The Iron Islands|Mild and rainy, with frequent storms and occasional heavy rain.
+The Dothraki Sea|Hot and dry, with little rainfall and plenty of sun. Temperatures can be extreme during the day, but cool off at night.
+Beyond the Wall|Extremely cold and snowy, with heavy winds and blizzards. Temperatures can drop well below freezing.
+Essos|Various climates depending on the region, ranging from hot and dry to temperate and rainy.
+The North|Mildly cold, with temperatures ranging from chilly to below freezing during the winter months.
