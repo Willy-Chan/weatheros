@@ -4,6 +4,39 @@ Weatheros is a web application that provides weather information for the fiction
 ## Example
 ![image](https://github.com/Willy-Chan/weatheros/assets/106504264/b88a92ba-02f4-4051-9e51-ab568930b17b)
 
+## Settings
+If `weather_condition` is equal to "Rain" or "Drizzle":
+- Location: The Iron Islands
+
+Else if `temp` is greater than or equal to 30:
+- Location: Dorne
+
+Else if `temp` is less than 0:
+- Location: Beyond the Wall
+
+Else if `weather_condition` is equal to "Snow":
+- Location: Winterfell
+
+Else if `weather_condition` is equal to "Clear":
+- If `temp` is greater than 20:
+  - Location: King's Landing
+
+- Else:
+  - Location: The Wall
+
+Else if `weather_condition` is equal to "Clouds":
+- If `temp` is greater than 20:
+  - Location: Braavos
+- Else:
+  - Location: The North
+
+Else if `weather_condition` is equal to "Thunderstorm":
+- Location: Meereen
+
+Else:
+- Location: Unknown Location
+
+
 ## Installation
 
 Before you can run  weatheros, ensure you have Python 3.6 or later installed on your machine. Then, follow these steps: 
