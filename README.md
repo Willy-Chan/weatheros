@@ -1,11 +1,3 @@
-<pre align='center'>
-
- _   _,____, ____,____,__, _,____,____, ____, ____, 
-(-|  |(-|_, (-/_|(-|  (-|__|(-|_,(-|__)(-/  \(-(__  
- _|/\|,_|__,_/  |,_|,  _|  |,_|__,_|  \,_\__/,____) 
-(     (    (     (    (     (    (     (     (      
-
-</pre>
 # Weatheros
 Weatheros is a web application that provides weather information for the fictional locations in Westeros from the popular series Game of Thrones. Developed using Python's Flask framework, it utilizes the user's geolocation data to determine their current location and delivers the temperature in a corresponding Westeros location.
 
@@ -62,8 +54,6 @@ export FLASK_ENV=development
 flask run
 ``` 
 8. Open your browser and navigate to [http://127.0.0.1:5000/](http://127.0.0.1:5000/)  to access the Weatheros.
-## API Usage
-
 
 ## Technologies Used
 - Python 3.6+
