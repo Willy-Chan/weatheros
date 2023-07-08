@@ -1,6 +1,9 @@
 # Weatheros
 Weatheros is a web application that provides weather information for the fictional locations in Westeros from the popular series Game of Thrones. Developed using Python's Flask framework, it utilizes the user's geolocation data to determine their current location and delivers the temperature in a corresponding Westeros location.
 
+## Example
+![image](https://github.com/Willy-Chan/weatheros/assets/106504264/b88a92ba-02f4-4051-9e51-ab568930b17b)
+
 ## Installation
 
 Before you can run  weatheros, ensure you have Python 3.6 or later installed on your machine. Then, follow these steps: 
